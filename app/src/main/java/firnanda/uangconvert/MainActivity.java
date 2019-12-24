@@ -13,7 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.text.NumberFormat;
 import java.util.Locale;
 
-import firnanda.uangconvert.Activity.Login;
+//import firnanda.uangconvert.Activity.Login;
 
 public class MainActivity extends AppCompatActivity {
 
