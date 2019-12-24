@@ -3,4 +3,9 @@
     <color name="colorPrimary">#FFFFFF</color>
     <color name="colorPrimaryDark">#000202</color>
     <color name="colorAccent">#D81B60</color>
+    <color name="putih">#FFFFFF</color>
+    <color name="hitam">#000000</color>
+    <color name="companyColor">#82B1FF</color>
+    <color name="oren">#FF5722</color>
+    <color name="grey">#6D6B6B</color>
 </resources>

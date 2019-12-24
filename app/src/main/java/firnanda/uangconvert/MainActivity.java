@@ -1,5 +1,6 @@
 package firnanda.uangconvert;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,7 +13,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.text.NumberFormat;
 import java.util.Locale;
 
+import firnanda.uangconvert.Activity.Login;
+
 public class MainActivity extends AppCompatActivity {
+
     EditText input_uang;
     Button rp_usd, rp_euro, rp_yen;
     TextView hasil_konversi;
@@ -83,4 +87,5 @@ public class MainActivity extends AppCompatActivity {
         hasil_konversi.setText(NumberFormat.getCurrencyInstance(Locale.US).format(hasil));
         Toast.makeText(this, "1 U$D = Rp 14808", Toast.LENGTH_SHORT).show();
     }
+
 }
